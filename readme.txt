@@ -1,1 +1,1 @@
-This is just placeholder text for whatever I end up deeming important to this file.
+This is the aggregate repository for all of my personal business websites.
