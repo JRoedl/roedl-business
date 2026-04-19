@@ -47,6 +47,46 @@ header::before {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.45));
 }
 
+.header-contact {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1rem;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  text-align: right;
+  color: #ffffff;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  max-width: calc(100% - 3rem);
+}
+
+.header-contact span {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-contact span + span::before {
+  content: "•";
+  color: rgba(255, 255, 255, 0.65);
+  margin-right: 0.75rem;
+  font-size: 1.1rem;
+  line-height: 0;
+}
+
+.header-contact a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header-contact a:hover {
+  text-decoration: underline;
+}
+
 main {
   width: min(1080px, 100%);
   margin: 0 auto;
